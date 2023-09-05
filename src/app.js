@@ -17,7 +17,7 @@ mongoose.connect('mongodb+srv://luisfdlta:Mejorsolo1095@cluster0.aauduvj.mongodb
         console.log("Connected to DB - Mongo Atlas");
     })
     .catch(error => {
-        console.error("Error en la conexión", error)
+        console.error("Error en la conexion", error)
     })
 
 app.use("/api/users", userRouter)
